@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!--
+|                   _
+|    /|           / / |\
+|   / |          / /  | \
+|  / /          / /    \ \
+|  \ \    ___  / /     / /
+|   \ |  /   \/ /     | /
+|    \| |      /      |/
+|        \____/
+|
+
+This was made using a modified version of the Chrome-Tabs library.
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link href="//cdn.jsdelivr.net/npm/@sweetalert2/themes@5.0.11/default/default.css" rel="stylesheet">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v6.1.1/css/all.css">
+    <meta name="description" content="Ludicrous - A Simple and Easy to Use School Site">
+    <meta name="theme-color" content="#2467a5" />
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9771497548063220"
+     crossorigin="anonymous"></script>
+    <title>Ludicrous</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="./css/main.css" rel="stylesheet">
+    <link rel="stylesheet" disabled href="/css/browserdark.css">
+    <link href="/favicon.ico" rel="icon">
+  </head>
+  <body>
+    <div class="surface">
+      <div class="mock-browser">
+        <div class="mock-browser-menu-open"><span class="lines line-1"></span><span class="lines line-2"></span><span class="lines line-3"></span></div>
+        <div class="chrome-tabs" style="--tab-content-margin: 9px">
+          <div class="chrome-tabs-content">
+            <div class="chrome-tabs-create"><i class="fa-solid fa-plus"></i></div>
+          </div>
+          <div class="chrome-tabs-bottom-bar"></div>
+          <div class="chrome-tabs-hidden"></div>
+          <!-- Styles to prevent flash after JS initialization -->
+          <style>
+            .chrome-tabs .chrome-tab {
+              width: 258px
+            }
+
+            .chrome-tabs .chrome-tab:nth-child(1) {
+              transform: translate3d(0px, 0, 0)
+            }
+
+            .chrome-tabs .chrome-tab:nth-child(2) {
+              transform: translate3d(239px, 0, 0)
+            }
+          </style>
+        </div>
+        <div class="chrome-tabs-optional-shadow-below-bottom-bar"></div>
+        <div class="mock-browser-content">
+        </div>
+      </div>
+
+      <style>
+        .made-by {
+          margin-top: auto;
+          --active-background-color: #dee1e6;
+          color: #848890;
+          font-size: 14px;
+          font-family: Avenir, "Avenir Next", "Segoe UI", Arial, "Helvetica Neue", Helvetica, sans-serif;
+          text-align: center;
+          -webkit-font-smoothing: antialiased;
+          font-weight: bold;
+        }
+
+        html.dark-theme .made-by {
+          --active-background-color: #242628;
+          color: #838488;
+        }
+
+        .made-by-link { color: inherit; text-decoration: none; display: inline-block; padding: 1em; border-radius: .5em }
+        .made-by-link:hover:not(:active) { opacity: .7 }
+        .made-by-link:hover:active { background: var(--active-background-color) }
+        .made-by-logo { display: block; height: 3.5em; width: 7em; margin: 0 auto .75em }
+      </style>
+    </div>
+
+    <script src="https://unpkg.com/draggabilly@2.2.0/dist/draggabilly.pkgd.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="./js/tld.js"></script>
+    <script src="./js/chrome-tabs.js"></script>
+    <script src="/js/analytics.js"></script>
+    <script async src="https://arc.io/widget.min.js#Uj7TAd9Q"></script>
+    <script src="./js/Contextify.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
